@@ -17,7 +17,7 @@ export default async function Home(){
         <link rel='icon' href='/favicon.ico' />
       </Head>
 	  <header className=''>
-      <h2 className='text-2xl font-semibold select-none'>Todo List</h2>
+      <h2 className='text-center text-4xl font-semibold select-none grid gap-y-6 '>Vojtech’s Todo app</h2>
       </header>
       
         <TodoForm />
