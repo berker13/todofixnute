@@ -26,13 +26,13 @@ export default function TodoForm() {
         name='body'
         value={title}
         onChange={(e) => setBody(e.target.value)}
-        className='ml-2 w-full outline-none text-white bg-black'
+        className='ml-2 w-full outline-none text-white '
         placeholder='Add ToDo'
       />
       <input
         type='submit'
         className='p-2 ml-auto bg-red-500 hover:bg-blue-700 cursor-pointer'
-        value={isLoading ? 'Adding Todo...' : 'Add Todo'}
+        value={isLoading ? 'Adding...' : 'Add task'}
         disabled={isLoading}
       />
     </form>
