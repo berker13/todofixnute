@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hahaha{
-    background-color: green !important;
+    background-color: lightgreen !important;
     color: white !important;
     font-weight: bold !important;
     border-top-right-radius: 10px !important;
@@ -20,12 +20,12 @@
 
 
 .hahaha:hover{
-    background-color: #31ff31 !important;
+    background-color: lightgreen !important;
     color: black !important;
 }
 
 body{
-    background-color: whitesmoke !important;
+    background-color: white !important;
 }
 
 .hotovo{
@@ -36,10 +36,10 @@ body{
 
 .card{
     border-radius: 10px !important;
-    color: white !important;
+    color: black !important;
 }
 
 .card:hover{
     color: black !important;
-    background-color: white !important;
+    background-color: lightgreen!important;
 }
