@@ -3,6 +3,7 @@ import React from 'react';
 import TodoForm from '../components/TodoForm';
 import TodoList from '../components/TodoList';
 import { getTodos } from "../lib/prisma";
+import "animate.css";
 
 export default async function Home(){
 
@@ -17,7 +18,9 @@ export default async function Home(){
         <link rel='icon' href='/favicon.ico' />
       </Head>
 	  <header className=''>
-      <h2 className='text-center text-4xl font-semibold select-none grid gap-y-6 '>Vojtech’s Todo app</h2>
+          <br></br><br></br><br></br><br></br>
+          <h2 className='animate__animated animate__flash animate__delay-0.5s text-center font-bold text-4xl font-semibold select-none grid gap-y-6  '>Vojtech’s Todo app</h2>
+          <br></br><br></br>
       </header>
       
         <TodoForm />

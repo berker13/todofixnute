@@ -25,9 +25,8 @@ function TodoCard({title, completed, id}: Props) {
       <div className='card select-none cursor-pointer'>
         <div className='card__wrapper flex justify-between p-4 border'>
           <p className='text-lg font-semibold'>{title}</p>
-          <button className='text-blue-500 hover:text-blue-700'>
-            {completed ? 'Completed' : 'Complete'}
-          </button>
+          <button className='hotovo text-blue-500 hover:text-blue-700'>
+Odstranit          </button>
         </div>
       </div>
     </form>
